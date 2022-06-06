@@ -1,0 +1,18 @@
+[option]
+
+
+# NOTE: (upper|lower)camelcase used instead of prefix_(module|package).
+#prefix_module = "mod_"
+#prefix_package = "pkg_"
+
+[rules]
+function_same_as_system_function = true
+generate_case_with_label = true
+generate_for_with_label = true
+generate_if_with_label = true
+lowercamelcase_interface = false
+lowercamelcase_module = false
+lowercamelcase_package = true
+uppercamelcase_interface = false
+uppercamelcase_module = true
+uppercamelcase_package = false
